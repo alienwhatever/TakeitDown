@@ -38,7 +38,7 @@ if len(argv) <= 1:
     print ('ssl - Enable ssl connection (To attack https)')
     print ('showstatus - Show HTTP response status in each request\n')
 
-    #sysexit()
+    sysexit()
 
 domain = str(argv[1])    # target domain name
 host = str(socket.gethostbyname(domain))    # get target host name
