@@ -18,7 +18,7 @@ import ssl
 from os import system
 
 def banner():
-    print ('\nThis tool is for testing and edcutional purpose only')
+    print ('\nThis tool is for testing and edcutional purposes only')
     print ('I am not responsible for any damage you make')
     print ('Use this tool at your own risk')
 
