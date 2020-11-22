@@ -26,3 +26,10 @@ ssl - Enable ssl connection (To attack https)
 showstatus - Show HTTP response status in each request
 
 ```
+# Written in python3
+Orgianl Source of background photo in GUI interface https://pixabay.com/illustrations/halloween-skull-biker-flames-3696046/
+
+## Note:
+This tool is for testing and edcutional purposes only
+I am not responsible for what you did with this tool!
+Use at your own risk
