@@ -14,6 +14,7 @@ A simple ***HTTP GET request flooder with both GUI and Command Line interface** 
                                                           
 
 ----Usages----
+./takeitdown.py <host> <port>
 ./takeitdown.py targetwebsite.com 80
 ./takeitdown.py targetwebsite.com 80 --w 500
 ./takeitdown.py targetwebsite.com 443 ssl
