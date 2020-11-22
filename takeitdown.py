@@ -18,10 +18,10 @@ import ssl
 from os import system
 
 def banner():
-    #print ('\nThis tool is for testing and edcutional purpose only')
-    #print ('I am not responsible for any damage you make')
-    #print ('Use this tool at your own risk')
-    system('figlet Take it down!')
+    print ('\nThis tool is for testing and edcutional purpose only')
+    print ('I am not responsible for any damage you make')
+    print ('Use this tool at your own risk')
+
 if len(argv) <= 1:
     banner()
     print ('\n----Usages----')
