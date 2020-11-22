@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-#!/usr/bin/python
 
-# This program is compatible with both python3 and python2
 """
 author: alienwhatever
 
@@ -176,7 +174,8 @@ def main():
     banner()
     print ('\nAttacking {} at {} with {} worker(s)\nPath - {}'.format(host, port, number_of_workers, path))
     for _ in range(number_of_workers):
-        Thread(target=attack).start()
+        t = Thread(target=attack, daemon=True)
         #delay(3)
+    t.join()
 
 main()
