@@ -1,5 +1,5 @@
 # TakeitDown
-A simple ***HTTP flooder with both GUI and Command Line interface** and **SSL enable option(This tool can attack on HTTPS not just HTTP) with low system resource consuming.*** * This tool can take down most small webistes and webapps in seconds or minutes!  And slow down some websites and webapps *
+A simple ***HTTP GET request flooder with both GUI and Command Line interface** and **SSL enable option(This tool can attack on HTTPS not just HTTP) with low system resource consuming.*** * This tool can take down most small webistes and webapps in seconds or minutes!  And slow down some websites and webapps *
 
 # Picture of GUI interface
 ![](img/ss.png)
