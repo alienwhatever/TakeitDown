@@ -175,7 +175,7 @@ def main():
     print ('\nAttacking {} at {} with {} worker(s)\nPath - {}'.format(host, port, number_of_workers, path))
     for _ in range(number_of_workers):
         t = Thread(target=attack, daemon=True)
-        #delay(3)
+        t.start()
     t.join()
 
 main()
